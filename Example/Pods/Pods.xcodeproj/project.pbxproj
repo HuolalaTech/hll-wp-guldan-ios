@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152084562CAC1DEC53142EBA10738631 /* Guldan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8379F6C2120A0DCF97A72275842571 /* Guldan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15EDBD0999672FDEC1BB71BC0E03808A /* gdn_objc_msgSend_time_profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = E674A38B0A64D7510DE12A615193D72A /* gdn_objc_msgSend_time_profiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA7E929E90207056545A1F998C4A511 /* UIWindow+GDN.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2B0F0B25F866DEB5FD0C4EB2334A /* UIWindow+GDN.m */; };
+		214CCDBBC704B73852B35F1C981C4556 /* Pods-Guldan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B6B62D4A6DDC25B79875E7A4B28A7 /* Pods-Guldan_Tests-dummy.m */; };
+		2763B6215BFB46A0C2E8661623F6E1E0 /* GDNOCMethodTimeProfilerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E226B288B295FD15C8A25CB04449E7EA /* GDNOCMethodTimeProfilerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C9917141E601D2D37A92925A905371 /* Pods-Guldan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EC6AD7A33AB68613324EA4A9F4A9F /* Pods-Guldan_Example-dummy.m */; };
+		45F8B8DA56FC3697C05A356F4AAB2C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D00A45BDB95072BBD318C0614C95BFD /* GDNRecordDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CF0C1D167134BC38DB4E3DA4BA9CED /* GDNRecordDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFB9A61546E3F804C57512D4307A559 /* GDNRecordRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F654A218469A0692FF81D3FD6C1E33 /* GDNRecordRootViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6067957D881CFB72E62981024D898048 /* GDNRecordDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD85EC4EE2B38700675C071A68C9CE72 /* GDNRecordDetailCell.m */; };
+		693F11307E3B30ACFFC80C4C71BEF62D /* Pods-Guldan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36DB4D3448E268D52CE0CCE3C2EED51 /* Pods-Guldan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFDE26D6D0C00305616DEA1270771DE /* Guldan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C50967208315F102D6E0914D443F9D0D /* Guldan-dummy.m */; };
+		854584D123451F1AB3812AACBA6127AB /* GDNOCMethodTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 79828FDC05396947A308AEFCAC52979B /* GDNOCMethodTimeProfiler.m */; };
+		8DD6EC8B016C15EA1384AFD18ACA9467 /* HLLFishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE98F25F600677CD2B9682303C591D3 /* HLLFishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A97B55278D30D05160BFBECBCCE6FD /* GDNUIModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 902B7E810F54EB2D542AD97A5D240ABE /* GDNUIModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83F652BF729BDA6E20FB8BB509D14DC /* GDNUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A99956DFC08F1EE16C791CE6D63BD /* GDNUIModel.m */; };
+		B3F06B09B7E928DD3A5DD3DDFC271D94 /* GDNRecordHierarchyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F66F5CFB739465B258F539BDCB50B41 /* GDNRecordHierarchyModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA78B2628119CA1DCD43483F88AAA5CB /* UIWindow+GDN.h in Headers */ = {isa = PBXBuildFile; fileRef = C41B2595CA882201645C9FB80BB88F07 /* UIWindow+GDN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32DB0CE4ADE182E4A2562632FADBEB6 /* GDNOCMethodTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 50079B26CA2CAA4E7717EDF29F97D361 /* GDNOCMethodTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C751784FC17F1A1B9752BF3FCCA76957 /* GDNRecordModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B1E3187D8E35BA91296B06A2F3C3D8 /* GDNRecordModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8AFEDFD3867828DB1096067B9209675 /* Pods-Guldan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F47FAB4133CB8C7A362BCEEC6CD58A4 /* Pods-Guldan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0F9B3C8D7E8D1BE033192F38489722 /* GDNRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD6385622D56CDAE19230CEBB99AAF /* GDNRecordModel.m */; };
+		D1A083F3615645ABAD4051E055AC4D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D22CE00D94627EE8C2BBAA7ED2DDF002 /* GDNRecordHierarchyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D1F210A32A1C1C7645F18E1BF44619 /* GDNRecordHierarchyModel.m */; };
+		D4E0B70E9DC6BC7B27E831A0E3320234 /* HLLFishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A8FF5A8EDBD65C7C3F636A55F6ECC /* HLLFishhook.c */; };
+		D58C1FF73DDE9769F61EC3E70473C7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D8084212F32A47BD631A902F51F5A15E /* gdn_objc_msgSend_time_profiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 70661D405F8D296C1B651ABC139C821E /* gdn_objc_msgSend_time_profiler.m */; };
+		DBE86477907A567CDCE3B062EB452E27 /* GDNRecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E83535D3D23DBAEDA84A4B5ADA6A9 /* GDNRecordDetailViewController.m */; };
+		DDEB6E04FD4BA6DB72F5D56A5EFFD623 /* gdn_objc_msgSend.s in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0E49B7CCAC00AFC14FD683CF05579 /* gdn_objc_msgSend.s */; };
+		E0DFC527862CB314892BDE90B44F968E /* gdn_objc_msgSend.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DA21D5DC0C797BBD9AD82C1B7BA603 /* gdn_objc_msgSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E5444CA707345B665A8A39079CF2A4 /* GDNRecordRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1175B2E72F5AEA07DD328EE9A206BF /* GDNRecordRootViewController.m */; };
+		F84AAE24ACDCB30AA3F36635B50F65D8 /* Guldan.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BAA0D809651017BE6707B5A6698846 /* Guldan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD52B5DFFA75835BE2C69ABF945C5A18 /* GDNRecordDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DA38270FEEBC747D6F9E6821963628 /* GDNRecordDetailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B7B3A14F62C5D4DB70B88FD7ECE2E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46A651FE22D8CC5CEC85CBCD2E74CEC;
+			remoteInfo = "Pods-Guldan_Example";
+		};
+		3E73BAA00345831EA3C278AEC35787DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD5ED1A29984177DF7C725984A634F1;
+			remoteInfo = Guldan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019B6B62D4A6DDC25B79875E7A4B28A7 /* Pods-Guldan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Guldan_Tests-dummy.m"; sourceTree = "<group>"; };
+		0EE98F25F600677CD2B9682303C591D3 /* HLLFishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLLFishhook.h; path = Guldan/Classes/HLLFishhook.h; sourceTree = "<group>"; };
+		1EE0E49B7CCAC00AFC14FD683CF05579 /* gdn_objc_msgSend.s */ = {isa = PBXFileReference; includeInIndex = 1; name = gdn_objc_msgSend.s; path = Guldan/Classes/gdn_objc_msgSend.s; sourceTree = "<group>"; };
+		1F47FAB4133CB8C7A362BCEEC6CD58A4 /* Pods-Guldan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Guldan_Tests-umbrella.h"; sourceTree = "<group>"; };
+		21D1F210A32A1C1C7645F18E1BF44619 /* GDNRecordHierarchyModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNRecordHierarchyModel.m; sourceTree = "<group>"; };
+		27DA21D5DC0C797BBD9AD82C1B7BA603 /* gdn_objc_msgSend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gdn_objc_msgSend.h; path = Guldan/Classes/gdn_objc_msgSend.h; sourceTree = "<group>"; };
+		2EBC88786004F7DC3AC3A28F5B7E26D5 /* Guldan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Guldan-Info.plist"; sourceTree = "<group>"; };
+		31BAA0D809651017BE6707B5A6698846 /* Guldan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Guldan.h; path = Guldan/Classes/Guldan.h; sourceTree = "<group>"; };
+		344D2F429C1C9DDD07623B20717A9E22 /* Pods-Guldan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guldan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2D2B0F0B25F866DEB5FD0C4EB2334A /* UIWindow+GDN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GDN.m"; sourceTree = "<group>"; };
+		3B4F25693CAA240D2F9812652AFB65A4 /* Pods-Guldan_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guldan_Tests-Info.plist"; sourceTree = "<group>"; };
+		3C597D6DB5BDAFE6684599F8F380596F /* Pods-Guldan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Guldan_Example.modulemap"; sourceTree = "<group>"; };
+		3D5E83535D3D23DBAEDA84A4B5ADA6A9 /* GDNRecordDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNRecordDetailViewController.m; sourceTree = "<group>"; };
+		3DB8D0CBBA254549F5C65EB76E8A7C44 /* Guldan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Guldan-prefix.pch"; sourceTree = "<group>"; };
+		3EF0C8932439425E7357A09E7DCABDAB /* Guldan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Guldan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EFA0451D705080C65A708695C8FC28D /* Pods-Guldan_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guldan_Example-Info.plist"; sourceTree = "<group>"; };
+		463FAC86701EADB05CECD15C87D857D2 /* Pods_Guldan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Guldan_Tests.framework; path = "Pods-Guldan_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAD6385622D56CDAE19230CEBB99AAF /* GDNRecordModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNRecordModel.m; sourceTree = "<group>"; };
+		50079B26CA2CAA4E7717EDF29F97D361 /* GDNOCMethodTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDNOCMethodTimeProfiler.h; path = Guldan/Classes/GDNOCMethodTimeProfiler.h; sourceTree = "<group>"; };
+		5F1175B2E72F5AEA07DD328EE9A206BF /* GDNRecordRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNRecordRootViewController.m; sourceTree = "<group>"; };
+		608B599BC6570A69C6DC67105F385883 /* Pods-Guldan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guldan_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		625E9EA2F204A821418ED12ECEAEFCDF /* Pods-Guldan_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Guldan_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B8379F6C2120A0DCF97A72275842571 /* Guldan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Guldan-umbrella.h"; sourceTree = "<group>"; };
+		6E7EC6AD7A33AB68613324EA4A9F4A9F /* Pods-Guldan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Guldan_Example-dummy.m"; sourceTree = "<group>"; };
+		70661D405F8D296C1B651ABC139C821E /* gdn_objc_msgSend_time_profiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = gdn_objc_msgSend_time_profiler.m; path = Guldan/Classes/gdn_objc_msgSend_time_profiler.m; sourceTree = "<group>"; };
+		71263FE83A792883268EDD7A5360C194 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79828FDC05396947A308AEFCAC52979B /* GDNOCMethodTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDNOCMethodTimeProfiler.m; path = Guldan/Classes/GDNOCMethodTimeProfiler.m; sourceTree = "<group>"; };
+		79F654A218469A0692FF81D3FD6C1E33 /* GDNRecordRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNRecordRootViewController.h; sourceTree = "<group>"; };
+		7D52DA981ACEA9B1C5EFB8D8DE49E80F /* Guldan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Guldan.release.xcconfig; sourceTree = "<group>"; };
+		7E5A8FF5A8EDBD65C7C3F636A55F6ECC /* HLLFishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = HLLFishhook.c; path = Guldan/Classes/HLLFishhook.c; sourceTree = "<group>"; };
+		85DA38270FEEBC747D6F9E6821963628 /* GDNRecordDetailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNRecordDetailCell.h; sourceTree = "<group>"; };
+		8678A8DD6C384D7281DFD172975831CD /* Pods-Guldan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guldan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E0F236EE64AEED647D7BB2A62445D54 /* Pods-Guldan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guldan_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F698A7D41AFC5A47704B78BA5E09F81 /* Guldan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Guldan.framework; path = Guldan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B7E810F54EB2D542AD97A5D240ABE /* GDNUIModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNUIModel.h; sourceTree = "<group>"; };
+		93097FE174B4ED9F20DD9677312DE3D0 /* Guldan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Guldan.modulemap; sourceTree = "<group>"; };
+		94E0DFBC4C04253969D9E9073B361CE0 /* Pods-Guldan_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Guldan_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F66F5CFB739465B258F539BDCB50B41 /* GDNRecordHierarchyModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNRecordHierarchyModel.h; sourceTree = "<group>"; };
+		A36DB4D3448E268D52CE0CCE3C2EED51 /* Pods-Guldan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Guldan_Example-umbrella.h"; sourceTree = "<group>"; };
+		A5B2730D5089F712AB176E17551BB659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A6D6834880A46C86198282CFE787533F /* Pods-Guldan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guldan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD85EC4EE2B38700675C071A68C9CE72 /* GDNRecordDetailCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNRecordDetailCell.m; sourceTree = "<group>"; };
+		AEC7843ABF876424A238295D19C9F50A /* Pods_Guldan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Guldan_Example.framework; path = "Pods-Guldan_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CF0C1D167134BC38DB4E3DA4BA9CED /* GDNRecordDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNRecordDetailViewController.h; sourceTree = "<group>"; };
+		B6B1E3187D8E35BA91296B06A2F3C3D8 /* GDNRecordModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GDNRecordModel.h; sourceTree = "<group>"; };
+		C41B2595CA882201645C9FB80BB88F07 /* UIWindow+GDN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GDN.h"; sourceTree = "<group>"; };
+		C50967208315F102D6E0914D443F9D0D /* Guldan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Guldan-dummy.m"; sourceTree = "<group>"; };
+		C8F3D160B3F88E704C4EDFDAD896F1AC /* Guldan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Guldan.debug.xcconfig; sourceTree = "<group>"; };
+		CD1CF3FE0E66C88D1222FE09689F04F6 /* Pods-Guldan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guldan_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E226B288B295FD15C8A25CB04449E7EA /* GDNOCMethodTimeProfilerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDNOCMethodTimeProfilerProtocol.h; path = Guldan/Classes/GDNOCMethodTimeProfilerProtocol.h; sourceTree = "<group>"; };
+		E674A38B0A64D7510DE12A615193D72A /* gdn_objc_msgSend_time_profiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gdn_objc_msgSend_time_profiler.h; path = Guldan/Classes/gdn_objc_msgSend_time_profiler.h; sourceTree = "<group>"; };
+		EFCCDB33517BA5393B311C632F1C9530 /* Pods-Guldan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Guldan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F594FEA4B989BA5ECF4D55E700D60F06 /* Pods-Guldan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Guldan_Tests.modulemap"; sourceTree = "<group>"; };
+		FB1A99956DFC08F1EE16C791CE6D63BD /* GDNUIModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GDNUIModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130C247E52EC1F1139976C78B9360FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A083F3615645ABAD4051E055AC4D72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757CE5769592622B7E7CD082F71B8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F8B8DA56FC3697C05A356F4AAB2C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531D66199678DF88C9058BE203AA8D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C1FF73DDE9769F61EC3E70473C7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD6B8CBA93399717387A53E588D33DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73DD9A9F84EA2F667B9B1CD8B564E366 /* Pods-Guldan_Example */,
+				AA79AE41B4B9E691CA5048AA89603249 /* Pods-Guldan_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39C728A0B16981F05BE8169A1F39B5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F698A7D41AFC5A47704B78BA5E09F81 /* Guldan.framework */,
+				AEC7843ABF876424A238295D19C9F50A /* Pods_Guldan_Example.framework */,
+				463FAC86701EADB05CECD15C87D857D2 /* Pods_Guldan_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73DD9A9F84EA2F667B9B1CD8B564E366 /* Pods-Guldan_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3C597D6DB5BDAFE6684599F8F380596F /* Pods-Guldan_Example.modulemap */,
+				625E9EA2F204A821418ED12ECEAEFCDF /* Pods-Guldan_Example-acknowledgements.markdown */,
+				8678A8DD6C384D7281DFD172975831CD /* Pods-Guldan_Example-acknowledgements.plist */,
+				6E7EC6AD7A33AB68613324EA4A9F4A9F /* Pods-Guldan_Example-dummy.m */,
+				94E0DFBC4C04253969D9E9073B361CE0 /* Pods-Guldan_Example-frameworks.sh */,
+				3EFA0451D705080C65A708695C8FC28D /* Pods-Guldan_Example-Info.plist */,
+				A36DB4D3448E268D52CE0CCE3C2EED51 /* Pods-Guldan_Example-umbrella.h */,
+				608B599BC6570A69C6DC67105F385883 /* Pods-Guldan_Example.debug.xcconfig */,
+				CD1CF3FE0E66C88D1222FE09689F04F6 /* Pods-Guldan_Example.release.xcconfig */,
+			);
+			name = "Pods-Guldan_Example";
+			path = "Target Support Files/Pods-Guldan_Example";
+			sourceTree = "<group>";
+		};
+		77B7B67262619032AC5A7DF1293B0DA8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				85DA38270FEEBC747D6F9E6821963628 /* GDNRecordDetailCell.h */,
+				AD85EC4EE2B38700675C071A68C9CE72 /* GDNRecordDetailCell.m */,
+				B3CF0C1D167134BC38DB4E3DA4BA9CED /* GDNRecordDetailViewController.h */,
+				3D5E83535D3D23DBAEDA84A4B5ADA6A9 /* GDNRecordDetailViewController.m */,
+				9F66F5CFB739465B258F539BDCB50B41 /* GDNRecordHierarchyModel.h */,
+				21D1F210A32A1C1C7645F18E1BF44619 /* GDNRecordHierarchyModel.m */,
+				B6B1E3187D8E35BA91296B06A2F3C3D8 /* GDNRecordModel.h */,
+				4DAD6385622D56CDAE19230CEBB99AAF /* GDNRecordModel.m */,
+				79F654A218469A0692FF81D3FD6C1E33 /* GDNRecordRootViewController.h */,
+				5F1175B2E72F5AEA07DD328EE9A206BF /* GDNRecordRootViewController.m */,
+				902B7E810F54EB2D542AD97A5D240ABE /* GDNUIModel.h */,
+				FB1A99956DFC08F1EE16C791CE6D63BD /* GDNUIModel.m */,
+				C41B2595CA882201645C9FB80BB88F07 /* UIWindow+GDN.h */,
+				3A2D2B0F0B25F866DEB5FD0C4EB2334A /* UIWindow+GDN.m */,
+			);
+			name = UI;
+			path = Guldan/Classes/UI;
+			sourceTree = "<group>";
+		};
+		921867D4358AFA9E7A1CB7AFA2F806F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0C8932439425E7357A09E7DCABDAB /* Guldan.podspec */,
+				A5B2730D5089F712AB176E17551BB659 /* LICENSE */,
+				71263FE83A792883268EDD7A5360C194 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA79AE41B4B9E691CA5048AA89603249 /* Pods-Guldan_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F594FEA4B989BA5ECF4D55E700D60F06 /* Pods-Guldan_Tests.modulemap */,
+				EFCCDB33517BA5393B311C632F1C9530 /* Pods-Guldan_Tests-acknowledgements.markdown */,
+				A6D6834880A46C86198282CFE787533F /* Pods-Guldan_Tests-acknowledgements.plist */,
+				019B6B62D4A6DDC25B79875E7A4B28A7 /* Pods-Guldan_Tests-dummy.m */,
+				3B4F25693CAA240D2F9812652AFB65A4 /* Pods-Guldan_Tests-Info.plist */,
+				1F47FAB4133CB8C7A362BCEEC6CD58A4 /* Pods-Guldan_Tests-umbrella.h */,
+				344D2F429C1C9DDD07623B20717A9E22 /* Pods-Guldan_Tests.debug.xcconfig */,
+				8E0F236EE64AEED647D7BB2A62445D54 /* Pods-Guldan_Tests.release.xcconfig */,
+			);
+			name = "Pods-Guldan_Tests";
+			path = "Target Support Files/Pods-Guldan_Tests";
+			sourceTree = "<group>";
+		};
+		AD9232E7EE8C6C4E79029652A186FA48 /* Guldan */ = {
+			isa = PBXGroup;
+			children = (
+				27DA21D5DC0C797BBD9AD82C1B7BA603 /* gdn_objc_msgSend.h */,
+				1EE0E49B7CCAC00AFC14FD683CF05579 /* gdn_objc_msgSend.s */,
+				E674A38B0A64D7510DE12A615193D72A /* gdn_objc_msgSend_time_profiler.h */,
+				70661D405F8D296C1B651ABC139C821E /* gdn_objc_msgSend_time_profiler.m */,
+				50079B26CA2CAA4E7717EDF29F97D361 /* GDNOCMethodTimeProfiler.h */,
+				79828FDC05396947A308AEFCAC52979B /* GDNOCMethodTimeProfiler.m */,
+				E226B288B295FD15C8A25CB04449E7EA /* GDNOCMethodTimeProfilerProtocol.h */,
+				31BAA0D809651017BE6707B5A6698846 /* Guldan.h */,
+				7E5A8FF5A8EDBD65C7C3F636A55F6ECC /* HLLFishhook.c */,
+				0EE98F25F600677CD2B9682303C591D3 /* HLLFishhook.h */,
+				921867D4358AFA9E7A1CB7AFA2F806F0 /* Pod */,
+				C1D806696DE8CB74C60D6F7E63ACCAA7 /* Support Files */,
+				77B7B67262619032AC5A7DF1293B0DA8 /* UI */,
+			);
+			name = Guldan;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B71A56962D1D833730406CE54F4BA361 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD9232E7EE8C6C4E79029652A186FA48 /* Guldan */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C1D806696DE8CB74C60D6F7E63ACCAA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93097FE174B4ED9F20DD9677312DE3D0 /* Guldan.modulemap */,
+				C50967208315F102D6E0914D443F9D0D /* Guldan-dummy.m */,
+				2EBC88786004F7DC3AC3A28F5B7E26D5 /* Guldan-Info.plist */,
+				3DB8D0CBBA254549F5C65EB76E8A7C44 /* Guldan-prefix.pch */,
+				6B8379F6C2120A0DCF97A72275842571 /* Guldan-umbrella.h */,
+				C8F3D160B3F88E704C4EDFDAD896F1AC /* Guldan.debug.xcconfig */,
+				7D52DA981ACEA9B1C5EFB8D8DE49E80F /* Guldan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Guldan";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B71A56962D1D833730406CE54F4BA361 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39C728A0B16981F05BE8169A1F39B5D3 /* Products */,
+				1AD6B8CBA93399717387A53E588D33DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		528565850A5C45F375C7BC12A34D5CCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DFC527862CB314892BDE90B44F968E /* gdn_objc_msgSend.h in Headers */,
+				15EDBD0999672FDEC1BB71BC0E03808A /* gdn_objc_msgSend_time_profiler.h in Headers */,
+				C32DB0CE4ADE182E4A2562632FADBEB6 /* GDNOCMethodTimeProfiler.h in Headers */,
+				2763B6215BFB46A0C2E8661623F6E1E0 /* GDNOCMethodTimeProfilerProtocol.h in Headers */,
+				FD52B5DFFA75835BE2C69ABF945C5A18 /* GDNRecordDetailCell.h in Headers */,
+				4D00A45BDB95072BBD318C0614C95BFD /* GDNRecordDetailViewController.h in Headers */,
+				B3F06B09B7E928DD3A5DD3DDFC271D94 /* GDNRecordHierarchyModel.h in Headers */,
+				C751784FC17F1A1B9752BF3FCCA76957 /* GDNRecordModel.h in Headers */,
+				4FFB9A61546E3F804C57512D4307A559 /* GDNRecordRootViewController.h in Headers */,
+				A2A97B55278D30D05160BFBECBCCE6FD /* GDNUIModel.h in Headers */,
+				152084562CAC1DEC53142EBA10738631 /* Guldan-umbrella.h in Headers */,
+				F84AAE24ACDCB30AA3F36635B50F65D8 /* Guldan.h in Headers */,
+				8DD6EC8B016C15EA1384AFD18ACA9467 /* HLLFishhook.h in Headers */,
+				BA78B2628119CA1DCD43483F88AAA5CB /* UIWindow+GDN.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D2304CF179FB47C4A334A6B572BA5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AFEDFD3867828DB1096067B9209675 /* Pods-Guldan_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A348525386CDB88BE7B3A44C5B00AE88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693F11307E3B30ACFFC80C4C71BEF62D /* Pods-Guldan_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DD5ED1A29984177DF7C725984A634F1 /* Guldan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502C0665BC4A58FEB5EDEF2E878A4D68 /* Build configuration list for PBXNativeTarget "Guldan" */;
+			buildPhases = (
+				528565850A5C45F375C7BC12A34D5CCD /* Headers */,
+				C99CD1BFAD6015BBBAD910DF94196622 /* Sources */,
+				2757CE5769592622B7E7CD082F71B8F9 /* Frameworks */,
+				93B1DF18B53B46F62608E8DB5802E365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guldan;
+			productName = Guldan;
+			productReference = 8F698A7D41AFC5A47704B78BA5E09F81 /* Guldan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48110B7C835CDD1FBBB0B59037899D36 /* Pods-Guldan_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5ED331F2C3059A2B6912113F7D73E7 /* Build configuration list for PBXNativeTarget "Pods-Guldan_Tests" */;
+			buildPhases = (
+				69D2304CF179FB47C4A334A6B572BA5F /* Headers */,
+				710E5971CE532745C9A345429651B550 /* Sources */,
+				130C247E52EC1F1139976C78B9360FF6 /* Frameworks */,
+				01E5E7C99124F5D77EB319BD0112F246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97524AD3B43E7852EC3685507D8CB43B /* PBXTargetDependency */,
+			);
+			name = "Pods-Guldan_Tests";
+			productName = "Pods-Guldan_Tests";
+			productReference = 463FAC86701EADB05CECD15C87D857D2 /* Pods_Guldan_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B46A651FE22D8CC5CEC85CBCD2E74CEC /* Pods-Guldan_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9770BAC72DCD03015EC7EE461A54202F /* Build configuration list for PBXNativeTarget "Pods-Guldan_Example" */;
+			buildPhases = (
+				A348525386CDB88BE7B3A44C5B00AE88 /* Headers */,
+				DB7497B5296F5EF0C043780F66E7B430 /* Sources */,
+				531D66199678DF88C9058BE203AA8D14 /* Frameworks */,
+				03F8A08FBCCC618FDC19705C60EBBB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4429326FB09D275A448C6BFA5BEBAE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Guldan_Example";
+			productName = "Pods-Guldan_Example";
+			productReference = AEC7843ABF876424A238295D19C9F50A /* Pods_Guldan_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 39C728A0B16981F05BE8169A1F39B5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD5ED1A29984177DF7C725984A634F1 /* Guldan */,
+				B46A651FE22D8CC5CEC85CBCD2E74CEC /* Pods-Guldan_Example */,
+				48110B7C835CDD1FBBB0B59037899D36 /* Pods-Guldan_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E5E7C99124F5D77EB319BD0112F246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F8A08FBCCC618FDC19705C60EBBB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B1DF18B53B46F62608E8DB5802E365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710E5971CE532745C9A345429651B550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214CCDBBC704B73852B35F1C981C4556 /* Pods-Guldan_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CD1BFAD6015BBBAD910DF94196622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEB6E04FD4BA6DB72F5D56A5EFFD623 /* gdn_objc_msgSend.s in Sources */,
+				D8084212F32A47BD631A902F51F5A15E /* gdn_objc_msgSend_time_profiler.m in Sources */,
+				854584D123451F1AB3812AACBA6127AB /* GDNOCMethodTimeProfiler.m in Sources */,
+				6067957D881CFB72E62981024D898048 /* GDNRecordDetailCell.m in Sources */,
+				DBE86477907A567CDCE3B062EB452E27 /* GDNRecordDetailViewController.m in Sources */,
+				D22CE00D94627EE8C2BBAA7ED2DDF002 /* GDNRecordHierarchyModel.m in Sources */,
+				CC0F9B3C8D7E8D1BE033192F38489722 /* GDNRecordModel.m in Sources */,
+				F6E5444CA707345B665A8A39079CF2A4 /* GDNRecordRootViewController.m in Sources */,
+				A83F652BF729BDA6E20FB8BB509D14DC /* GDNUIModel.m in Sources */,
+				7FFDE26D6D0C00305616DEA1270771DE /* Guldan-dummy.m in Sources */,
+				D4E0B70E9DC6BC7B27E831A0E3320234 /* HLLFishhook.c in Sources */,
+				1AA7E929E90207056545A1F998C4A511 /* UIWindow+GDN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7497B5296F5EF0C043780F66E7B430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C9917141E601D2D37A92925A905371 /* Pods-Guldan_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97524AD3B43E7852EC3685507D8CB43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Guldan_Example";
+			target = B46A651FE22D8CC5CEC85CBCD2E74CEC /* Pods-Guldan_Example */;
+			targetProxy = 27B7B3A14F62C5D4DB70B88FD7ECE2E0 /* PBXContainerItemProxy */;
+		};
+		F4429326FB09D275A448C6BFA5BEBAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Guldan;
+			target = 0DD5ED1A29984177DF7C725984A634F1 /* Guldan */;
+			targetProxy = 3E73BAA00345831EA3C278AEC35787DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83D8FFF9A5613DB8B19DFB312A888A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F3D160B3F88E704C4EDFDAD896F1AC /* Guldan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Guldan/Guldan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Guldan/Guldan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Guldan/Guldan.modulemap";
+				PRODUCT_MODULE_NAME = Guldan;
+				PRODUCT_NAME = Guldan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C4D54CF447212AD773C06735C82D274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344D2F429C1C9DDD07623B20717A9E22 /* Pods-Guldan_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Guldan_Tests/Pods-Guldan_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Guldan_Tests/Pods-Guldan_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A953593D97A219588D079AEC71E9D939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0F236EE64AEED647D7BB2A62445D54 /* Pods-Guldan_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Guldan_Tests/Pods-Guldan_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Guldan_Tests/Pods-Guldan_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3C8BC435DEE9B532A2AF8A91E5D971C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608B599BC6570A69C6DC67105F385883 /* Pods-Guldan_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Guldan_Example/Pods-Guldan_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Guldan_Example/Pods-Guldan_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0B62F01E58FF1DB0116146C73A8491A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D52DA981ACEA9B1C5EFB8D8DE49E80F /* Guldan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Guldan/Guldan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Guldan/Guldan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Guldan/Guldan.modulemap";
+				PRODUCT_MODULE_NAME = Guldan;
+				PRODUCT_NAME = Guldan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD59172261DD227E6E35B87F78F6AA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1CF3FE0E66C88D1222FE09689F04F6 /* Pods-Guldan_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Guldan_Example/Pods-Guldan_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Guldan_Example/Pods-Guldan_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502C0665BC4A58FEB5EDEF2E878A4D68 /* Build configuration list for PBXNativeTarget "Guldan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D8FFF9A5613DB8B19DFB312A888A6B /* Debug */,
+				D0B62F01E58FF1DB0116146C73A8491A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9770BAC72DCD03015EC7EE461A54202F /* Build configuration list for PBXNativeTarget "Pods-Guldan_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C8BC435DEE9B532A2AF8A91E5D971C /* Debug */,
+				DD59172261DD227E6E35B87F78F6AA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5ED331F2C3059A2B6912113F7D73E7 /* Build configuration list for PBXNativeTarget "Pods-Guldan_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4D54CF447212AD773C06735C82D274 /* Debug */,
+				A953593D97A219588D079AEC71E9D939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

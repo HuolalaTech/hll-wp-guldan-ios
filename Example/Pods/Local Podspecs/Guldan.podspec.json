@@ -1,0 +1,22 @@
+{
+  "name": "Guldan",
+  "version": "0.1.0",
+  "summary": "OC Method Time Cost Tool",
+  "description": "HUOLALA OC Method Cost Time Profiler",
+  "homepage": "https://xxx.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "货拉拉": "货拉拉"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Guldan/Classes/**/*"
+}

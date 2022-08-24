@@ -1,0 +1,16 @@
+PODS:
+  - Guldan (0.1.0)
+
+DEPENDENCIES:
+  - Guldan (from `../`)
+
+EXTERNAL SOURCES:
+  Guldan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Guldan: 55207a0bed3b8f977c512ae56918409392f448c9
+
+PODFILE CHECKSUM: 93cd923fedb0f6b46eb0bf883fb2c40d29273c96
+
+COCOAPODS: 1.10.1

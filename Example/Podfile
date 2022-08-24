@@ -1,0 +1,16 @@
+use_frameworks!
+
+source 'ssh://git@gitlab.huolala.cn:56358/group-wp-sdk/hll-wp-specs-ios.git'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '9.0'
+
+target 'Guldan_Example' do
+  pod 'Guldan', :path => '../'
+
+  target 'Guldan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
