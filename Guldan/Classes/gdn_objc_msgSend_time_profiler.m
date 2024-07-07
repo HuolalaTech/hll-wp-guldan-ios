@@ -337,30 +337,49 @@ void gdn_handleRecordsWithComplete(GDNProductFilesBlock onFiles, GDNMainThreadMe
                 char *selName = stackEntry.cmd;
                 
                 if (cls && strlen(className) > 0 && strlen(selName) > 0) {
-                    NSDictionary *pieceDic = @{
-                        @"name": [NSString stringWithFormat:@"%@[%s %s]",(isClassMethod ? @"+" : @"-"), className, selName],
-                        @"tname": threadName,
-                        @"st": @(stackEntry.start_time * 1e6),
-                        @"consume": @(stackEntry.consume_time * 1e6),
-                        @"args": @{
+                    NSDictionary *start_piece = @{
+                        @"name" : [NSString stringWithFormat:@"%@[%s %s]",(isClassMethod ? @"+" : @"-"), className, selName],
+                        @"cat": @"PERF",
+                        @"ph": @"B",
+                        @"pid": @0,
+                        @"tid": @(threadId),
+                        @"ts" : @(stackEntry.start_time * 1e6),
+                        @"args" : @{
                             @"stack_depth": @(stackEntry.stack_depth),
                             @"shallow_consume": @(stackEntry.shallow_consume_time * 1e6),
+                            @"tname" : threadName,
+                            @"consume" : @(stackEntry.consume_time * 1e6)
                         }
                     };
-                    NSData *pieceData = [NSJSONSerialization dataWithJSONObject:pieceDic
+                    NSDictionary *end_piece = @{
+                        @"ph": @"E",
+                        @"pid": @0,
+                        @"tid": @(threadId),
+                        @"ts" : @((stackEntry.start_time + stackEntry.consume_time) * 1e6),
+                    };
+                    NSData *start_pieceData = [NSJSONSerialization dataWithJSONObject:start_piece
+                                                                    options:NSJSONWritingPrettyPrinted
+                                                                      error:nil];
+                    NSData *end_pieceData = [NSJSONSerialization dataWithJSONObject:end_piece
                                                                     options:NSJSONWritingPrettyPrinted
                                                                       error:nil];
                     if (i == 0) {
                         [dataM appendData:[@"[" dataUsingEncoding:NSUTF8StringEncoding]];
-                    } else if (i == recordsCount - 1) {
-                        [dataM appendData:[@"]" dataUsingEncoding:NSUTF8StringEncoding]];
-                    } else {
-                        [dataM appendData:pieceData];
+                    }
+                    [dataM appendData:start_pieceData];
+                    [dataM appendData:[@"," dataUsingEncoding:NSUTF8StringEncoding]];
+                    [dataM appendData:end_pieceData];
+                    if (i != recordsCount - 1) {
                         [dataM appendData:[@"," dataUsingEncoding:NSUTF8StringEncoding]];
+                    }
+                    if (i == recordsCount - 1) {
+                        [dataM appendData:[@"]" dataUsingEncoding:NSUTF8StringEncoding]];
                     }
                 }
             }
         }
+        
+
         NSString *productName = [NSString stringWithFormat:@"oc_method_cost_%@", threadName];
         NSString *productPath = [userRootDir stringByAppendingPathComponent:productName];
         [tmpFilePaths addObject:productPath];
